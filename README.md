@@ -37,3 +37,17 @@ docker run -d -p 80:80 docker/getting-started
 명령어를 사용해 연습용 틀을 만들어 준다, 
 
 ```docker```[실행툴 이름], ```run```[실행 명령어], ```-d``` [분리 모드(백그라운드에서)에서 컨테이너 실행] , ```-p``` 80:80 [호스트의 포트 80을 컨테이너의 포트 80에 매핑(변경가능)], ```docker/getting-started```[사용할 이미지 선택]
+
+
+위 명령어를 입력해주면 다음과 같이 가상환경이 셋팅되는것을 볼 수 있다.
+
+![todtjd](https://user-images.githubusercontent.com/84003327/160789503-64b28d69-3d17-4425-811b-f803d78b273e.PNG)
+
+
+그럼 도커 시스템에 가상환경이 셋팅 된것을 볼 수 있다
+
+![aaaa](https://user-images.githubusercontent.com/84003327/160789551-441aba38-69b6-48b5-aaeb-514c4865f757.PNG)
+
+
+
+
