@@ -1,5 +1,7 @@
-## Docker 사용법
+# Docker 사용법
 ---
+
+### - 환경구성 : Windows10, Docker Desktop
 
 ![도커](https://user-images.githubusercontent.com/84003327/160781878-d32e36cd-6ab0-4b0e-94d0-3ba0e3cbc5de.PNG)
 
