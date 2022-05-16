@@ -101,7 +101,7 @@ docker run --rm -it ubuntu:18.04 /bin/bash
 docker run -it pytorch/pytorch
 ```
 
-를 사용해서 pytorch의 이미지를 다운로드 해주자 
+위 명령어를 사용해서 pytorch의 이미지를 다운로드 해주자 
 
 ![토치](https://user-images.githubusercontent.com/84003327/168543315-f9dc6065-53c3-40d6-9a00-318a444cf999.PNG)
 
