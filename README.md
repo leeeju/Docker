@@ -90,6 +90,42 @@ docker run --rm -it ubuntu:18.04 /bin/bash
 
 ![aasd](https://user-images.githubusercontent.com/84003327/160794052-cd65445b-df0f-4e8b-8168-694fd352307e.PNG)
 
+---
+
+## docker pytorch 환경 만들기
+
+도커를 사용하는데 있어서 주된 용도로 사용되는 것이 머신러닝 및 딥러닝이며 pytorch, TensorFlow가 주로 사용된다,
+그중에서 난이도가 비교적 쉬운 pytorch를 사용해서 도커 컨테이너를 만들어 보자.
+
+```bash
+docker run -it pytorch/pytorch
+```
+
+를 사용해서 pytorch의 이미지를 다운로드 해주자 
+
+![토치](https://user-images.githubusercontent.com/84003327/168543315-f9dc6065-53c3-40d6-9a00-318a444cf999.PNG)
+
+
+위 사진과 같이 도커에 pytorch의 이미지가 다운로드 되고 있으며 다운이 완료 되면 사용 할 수 있다
+다운이 완료됬는지 확인 겸 컨테이너의 ```ID 생성```이 이루어 졌는지 확인을 위한 명령어를 입력해 보자 
+
+```bash
+docker images
+```
+
+![id](https://user-images.githubusercontent.com/84003327/168545107-cea28f83-2bd5-40b5-ba5d-687dbcebbdf4.PNG)
+
+아이디를 확인했다면 ```exit``` 를 입력해서 컨테이너에서 빠져 나와 다시 컨테이너 접속 명령어위에서 확인한 컨테이너 이미지ID를 사용해서 연결이 되는지 확인해본다.
+
+```bash
+docker run -it ca04e7f7c8e5
+```
+
+![캡처](https://user-images.githubusercontent.com/84003327/168545920-6ee59a9c-6228-43d0-b1de-f55f0dd2eff2.PNG)
+
+
+
+
 
 
 
