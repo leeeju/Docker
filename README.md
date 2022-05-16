@@ -70,7 +70,8 @@ docker ps
 
 명령어를 사용하면 현재 사용중인 프로세스의 상태를 보여주게 된다 
 
-![캡처](https://user-images.githubusercontent.com/84003327/168510440-a8341c0b-b132-4b91-9e3e-9372b165173c.PNG)
+![aaa](https://user-images.githubusercontent.com/84003327/168518735-962b778d-f8dc-46e9-b880-f2525e27b557.PNG)
+
 
 ---
 ## ubuntu 16.04 container 만들기 
