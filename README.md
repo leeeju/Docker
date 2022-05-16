@@ -61,6 +61,17 @@ docker run -d -p 80:80 docker/getting-started
 |-it  | 	-i와 -t를 동시에 사용한 것으로 터미널 입력을 위한 옵션|
 |–link  | 컨테이너 연결 [컨테이너명:별칭]|
 
+
+### docker ps 명령어
+
+```bash
+docker ps
+```
+
+명령어를 사용하면 현재 사용중인 프로세스의 상태를 보여주게 된다 
+
+![캡처](https://user-images.githubusercontent.com/84003327/168510440-a8341c0b-b132-4b91-9e3e-9372b165173c.PNG)
+
 ---
 ## ubuntu 16.04 container 만들기 
 
@@ -69,10 +80,15 @@ docker run -d -p 80:80 docker/getting-started
 ```bash
 docker run --rm -it ubuntu:18.04 /bin/bash
 ```
+
+---
+
 위 명령어를 사용하게 되면 ```--rm``` 명령어가 들어가 있기 때문에 1회용 우분트가 만들어 지는것을 볼 수 있을것이다 생성된 우분투를 도커를 종료(exit 명령어)함과 동시에 삭제 되는것을 볼 수 있다
 
 우분트가 생성되었으면 사용자가 ID가 root@6ffef1ec40c0로 변경된것을 볼 수 있으며  ```ls``` 를 사용해서 생성된 파일을 점검하고 ```cat /etc/issue``` 를 사용해서 우분트의 버전을 확인해 보자 
 
 ![aasd](https://user-images.githubusercontent.com/84003327/160794052-cd65445b-df0f-4e8b-8168-694fd352307e.PNG)
+
+
 
 
